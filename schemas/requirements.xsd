@@ -1,4 +1,10 @@
 <?xml version="1.0" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="requirements" />
+    <xs:element name="requirements">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="requirement" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
 </xs:schema>
